@@ -1,17 +1,5 @@
 package com.cx.mianshileap.job.cycle;
 
-import com.cx.mianshileap.esdao.PostEsDao;
-import com.cx.mianshileap.mapper.PostMapper;
-import com.cx.mianshileap.model.dto.post.PostEsDTO;
-import com.cx.mianshileap.model.entity.Post;
-import java.util.Date;
-import java.util.List;
-import java.util.stream.Collectors;
-import javax.annotation.Resource;
-import lombok.extern.slf4j.Slf4j;
-import cn.hutool.core.collection.CollUtil;
-import org.springframework.scheduling.annotation.Scheduled;
-
 /**
  * 增量同步帖子到 es
  *
