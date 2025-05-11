@@ -41,9 +41,6 @@ public class UserController {
     @Resource
     private UserService userService;
 
-    @Resource
-    private WxOpenConfig wxOpenConfig;
-
     // region 登录相关
 
     /**
@@ -90,7 +87,7 @@ public class UserController {
 
     /**
      * 用户登录（微信开放平台）
-     */
+     *//*
     @GetMapping("/login/wx_open")
     public BaseResponse<LoginUserVO> userLoginByWxOpen(HttpServletRequest request, HttpServletResponse response,
                                                        @RequestParam("code") String code) {
@@ -110,7 +107,7 @@ public class UserController {
             throw new BusinessException(ErrorCode.SYSTEM_ERROR, "登录失败，系统错误");
         }
     }
-
+*/
     /**
      * 用户注销
      *
