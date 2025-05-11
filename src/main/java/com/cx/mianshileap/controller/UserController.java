@@ -6,7 +6,6 @@ import com.cx.mianshileap.common.BaseResponse;
 import com.cx.mianshileap.common.DeleteRequest;
 import com.cx.mianshileap.common.ErrorCode;
 import com.cx.mianshileap.common.ResultUtils;
-import com.cx.mianshileap.config.WxOpenConfig;
 import com.cx.mianshileap.constant.UserConstant;
 import com.cx.mianshileap.exception.BusinessException;
 import com.cx.mianshileap.exception.ThrowUtils;
